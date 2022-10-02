@@ -1,0 +1,49 @@
+
+
+
+09/28/2022 23:20:18.798080 ./pingserver:     Creating C150NastyDgmSocket(nastiness=3)
+09/28/2022 23:20:18.804558 ./pingserver:     Ready to accept messages
+09/28/2022 23:20:25.070087 ./pingserver:     C150DgmSocket::read: successful read with len=4 |one.|
+09/28/2022 23:20:25.070112 ./pingserver:     C150NastyDgmSocket::read: delivering packet of length 4 |one.|
+09/28/2022 23:20:25.070133 ./pingserver:     Successfully read 4 bytes. Message="one"
+09/28/2022 23:20:25.070165 ./pingserver:     Responding with message="You said one. Don't you know how to play ping pong?"
+09/28/2022 23:20:25.070192 ./pingserver:     C150DgmSocket::write: attempting to send packet with len=52 |You said one. Don't you know how to play ping pong?.|
+09/28/2022 23:20:25.070260 ./pingserver:     C150DgmSocket::write: Success writing packet with len=52 |You said one. Don't you know how to play ping pong?.|
+09/28/2022 23:20:28.131527 ./pingserver:     C150DgmSocket::read: successful read with len=4 |two.|
+09/28/2022 23:20:28.131551 ./pingserver:     C150NastyDgmSocket::read: DELAYING packet of length 4 |two.|
+09/28/2022 23:21:32.195409 ./pingclient2: Creating C150DgmSocket
+09/28/2022 23:21:41.165718 ./pingclient2: ./pingclient2: Writing message: "heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye"
+09/28/2022 23:21:41.165751 ./pingclient2: C150DgmSocket::write: attempting to send packet with len=36 |heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye.|
+09/28/2022 23:21:41.165815 ./pingclient2: C150DgmSocket::write: Success writing packet with len=36 |heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye.|
+09/28/2022 23:21:41.165835 ./pingclient2: ./pingclient2: Returned from write, doing read()
+09/28/2022 23:21:41.166049 ./pingserver:     C150DgmSocket::read: successful read with len=36 |heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye.|
+09/28/2022 23:21:41.166075 ./pingserver:     C150NastyDgmSocket::read: delivering packet of length 36 |heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye.|
+09/28/2022 23:21:41.166096 ./pingserver:     Successfully read 36 bytes. Message="heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye"
+09/28/2022 23:21:41.166117 ./pingserver:     Responding with message="You said heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye. Don't you know how to play ping pong?"
+09/28/2022 23:21:41.166145 ./pingserver:     C150DgmSocket::write: attempting to send packet with len=84 |You said heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye. Don't you know how to play ping pong?.|
+09/28/2022 23:21:41.166211 ./pingserver:     C150DgmSocket::write: Success writing packet with len=84 |You said heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye. Don't you know how to play ping pong?.|
+09/28/2022 23:21:41.166262 ./pingclient2: C150DgmSocket::read: successful read with len=84 |You said heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye. Don't you know how to play ping pong?.|
+09/28/2022 23:21:41.166282 ./pingclient2: PRINTING RESPONSE: Response received is "You said heyyeyyeyeyeyeyeyyeyeeyyeyeyeyeyeye. Don't you know how to play ping pong?"
+09/28/2022 23:21:44.227164 ./pingclient2: C150DgmSocket::read: returning timeout to application
+09/28/2022 23:21:49.050682 ./pingclient2: ./pingclient2: Writing message: "heyyeyeyyeyeyeyeyey"
+09/28/2022 23:21:49.050712 ./pingclient2: C150DgmSocket::write: attempting to send packet with len=20 |heyyeyeyyeyeyeyeyey.|
+09/28/2022 23:21:49.050759 ./pingclient2: C150DgmSocket::write: Success writing packet with len=20 |heyyeyeyyeyeyeyeyey.|
+09/28/2022 23:21:49.050778 ./pingclient2: ./pingclient2: Returned from write, doing read()
+09/28/2022 23:21:49.050947 ./pingserver:     C150DgmSocket::read: successful read with len=20 |heyyeyeyyeyeyeyeyey.|
+09/28/2022 23:21:49.050971 ./pingserver:     C150NastyDgmSocket::read: delivering packet of length 20 |heyyeyeyyeyeyeyeyey.|
+09/28/2022 23:21:49.050991 ./pingserver:     Successfully read 20 bytes. Message="heyyeyeyyeyeyeyeyey"
+09/28/2022 23:21:49.051012 ./pingserver:     Responding with message="You said heyyeyeyyeyeyeyeyey. Don't you know how to play ping pong?"
+09/28/2022 23:21:49.051039 ./pingserver:     C150DgmSocket::write: attempting to send packet with len=68 |You said heyyeyeyyeyeyeyeyey. Don't you know how to play ping pong?.|
+09/28/2022 23:21:49.051104 ./pingserver:     C150DgmSocket::write: Success writing packet with len=68 |You said heyyeyeyyeyeyeyeyey. Don't you know how to play ping pong?.|
+09/28/2022 23:21:49.051159 ./pingclient2: C150DgmSocket::read: successful read with len=68 |You said heyyeyeyyeyeyeyeyey. Don't you know how to play ping pong?.|
+09/28/2022 23:21:49.051179 ./pingclient2: PRINTING RESPONSE: Response received is "You said heyyeyeyyeyeyeyeyey. Don't you know how to play ping pong?"
+09/28/2022 23:21:52.099166 ./pingclient2: C150DgmSocket::read: returning timeout to application
+09/28/2022 23:21:53.863127 ./pingclient2: ./pingclient2: Writing message: "heyyyeyeyeyyeyeyeyeyeyeyeye"
+09/28/2022 23:21:53.863155 ./pingclient2: C150DgmSocket::write: attempting to send packet with len=28 |heyyyeyeyeyyeyeyeyeyeyeyeye.|
+09/28/2022 23:21:53.863200 ./pingclient2: C150DgmSocket::write: Success writing packet with len=28 |heyyyeyeyeyyeyeyeyeyeyeyeye.|
+09/28/2022 23:21:53.863222 ./pingclient2: ./pingclient2: Returned from write, doing read()
+09/28/2022 23:21:53.863396 ./pingserver:     C150DgmSocket::read: successful read with len=28 |heyyyeyeyeyyeyeyeyeyeyeyeye.|
+09/28/2022 23:21:53.863419 ./pingserver:     C150NastyDgmSocket::read: DELAYING packet of length 28 |heyyyeyeyeyyeyeyeyeyeyeyeye.|
+09/28/2022 23:21:56.899145 ./pingclient2: C150DgmSocket::read: returning timeout to application
+09/28/2022 23:21:59.907153 ./pingclient2: C150DgmSocket::read: returning timeout to application
+09/28/2022 23:21:59.907268 ./pingclient2: Caught C150NetworkException: C150NetworkException:  Unexpected zero length read in client
